@@ -27,10 +27,8 @@ body {
   background: linear-gradient(to bottom right, #f8fafc, #e2e8f0);
 }
 
-@media (prefers-color-scheme: dark) {
-  .page-gradient {
-    background: linear-gradient(to bottom right, #0f172a, #1e293b);
-  }
+.dark .page-gradient {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b);
 }
 
 /* ==========================================================================
@@ -44,10 +42,8 @@ body {
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .card-base {
-    background-color: #1e293b;
-  }
+.dark .card-base {
+  background-color: #1e293b;
 }
 
 .card-elevated {
@@ -61,10 +57,8 @@ body {
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .card-elevated {
-    background-color: #1e293b;
-  }
+.dark .card-elevated {
+  background-color: #1e293b;
 }
 
 .card-feature {
@@ -74,10 +68,8 @@ body {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .card-feature {
-    background-color: #1e293b;
-  }
+.dark .card-feature {
+  background-color: #1e293b;
 }
 
 .card-stats {
@@ -87,10 +79,8 @@ body {
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .card-stats {
-    background-color: #1e293b;
-  }
+.dark .card-stats {
+  background-color: #1e293b;
 }
 
 /* Button Patterns */
@@ -124,15 +114,13 @@ body {
   background-color: #f9fafb;
 }
 
-@media (prefers-color-scheme: dark) {
-  .btn-secondary {
-    border-color: #4b5563;
-    color: #d1d5db;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #374151;
-  }
+.dark .btn-secondary {
+  border-color: #4b5563;
+  color: #d1d5db;
+}
+
+.dark .btn-secondary:hover {
+  background-color: #374151;
 }
 
 .btn-icon {
@@ -168,14 +156,12 @@ body {
   color: #111827;
 }
 
-@media (prefers-color-scheme: dark) {
-  .nav-link {
-    color: #d1d5db;
-  }
-  
-  .nav-link:hover {
-    color: #ffffff;
-  }
+.dark .nav-link {
+  color: #d1d5db;
+}
+
+.dark .nav-link:hover {
+  color: #ffffff;
 }
 
 .nav-link-active {
